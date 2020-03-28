@@ -3,17 +3,24 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link type="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <header>
-            <ul class="links">
-                <li class="link"></li>
-                <li class="link"></li>
-                <li class="link"></li>
-            </ul>
-        </header>
-        <div class="about">
+        <div class="header">
+            <a href="#default" class="logo">Portfolio</a>
+            <div class="header-right">
+              <a class="active" href="#home">About</a>
+              <a href="#contact">Contact</a>
+              <a href="#work">Work</a>
+            </div>
+          </div>
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1>John C. Ryan</h1>
+            </div>
+          </div>
+        <section class="about">
+            <h1 class="title">About Me</h1>
             <p class="paragraph">
                 My name is John Ryan, I have been many things in my life. Chef, butcher, firefighter, teacher, and now I am moving into web development.
                 I enjoy understanding the roots of problems and finding a solution that is not only serviceable but also elegant.
@@ -22,12 +29,19 @@
             	I hope you enjoy looking through my past projects. Please feel free to reach out with any questions you may have about my work. I hope you like what I have to show you. 
 
             </p>
-        </div>
-        <div class="work">
+        </section>
+        
+        <section class="work">
+            <h1 class="title">Work</h1>
             <link src="https://jcsryan.github.io/test-week-1/">
-        </div>
-        <div class="contact">
+        </section>
 
-        </div>
+        <section class="contact">
+            <h1 class="title">Contact Me</h1>
+            <div class="portals">
+                <label type="tel">617-816-3994</label>
+            
+            </div>
+        </section>
     </body>
 </html>
