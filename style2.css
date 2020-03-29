@@ -1,0 +1,216 @@
+head {
+    display: none;
+}
+
+html {
+    color: -internal-root-color;
+    background-color: #FAFAFA;
+}
+
+body {
+    font-family: "Avenir-Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 0;
+    background: #FFF;
+    color: #181A1B;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container .small {
+    margin: auto;
+    max-width: 760px;
+    box-sizing: border-box;
+}
+
+.column {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    margin: auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column .left {
+    vertical-align: top;
+    width: 49%;
+    display: inline-block;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.column .right {
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0 64px 0;
+    padding: 0;
+}
+
+.sunset {
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("./images/grey.jpg");
+    background-position: center;
+    margin: -100px 0 32px 0;
+    opacity: 0.75;
+    z-index: 0;
+}
+
+#homepage .page-title h1 {
+    font-family: "ArgentCF-Bold";
+}
+#homepage .page-title h1, #homepage .page-title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+#homepage .page-title h2 {
+    font-weight: 200;
+}
+
+#homepage .page-title h1, #homepage .page-title h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+#homepage .resume {
+    margin-top: 20px;
+}
+
+#homepage .resume .date {
+    font-size: 0.9em;
+    color: rgba(34,36,39,0.5);
+}
+
+#homepage .resume .role {
+    font-size: 0.9em;
+    font-family: "Avenir-Heavy";
+    margin: 4px 0;
+}
+
+#homepage .resume .company {
+    font-size: 0.9em;
+}
+
+#homepage .label {
+    color: #134db6;
+    font-size: 0.75em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: "avenir-heavy";
+}
+
+#homepage .resume .skill {
+    font-size: 0.9em;
+    font-family: "Avenir-Heavy";
+}
+
+.social ul {
+    margin-left: -10px;
+}
+
+.social li {
+    display: inline-block;
+}
+.linkedin a {
+    background-image: url("./images/link.png");
+    display: block;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instagram a {
+    background-image: url("./images/insta.png");
+    display: block;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.photo1 {
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.photo2 {
+    display: flex;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.sailboat {
+    display: block;
+    height: 320px;
+    width: 200px;
+    position: relative;
+    right: -300px;
+    top: -100px;
+    background-repeat: no-repeat;
+    background-image: url(images/sailboat.svg);
+    background-position: center;
+}
+
+.bio p {
+    vertical-align: top;
+    width: 49%;
+    display: inline-block;
+    padding-right: 30px;
+    box-sizing: border-box; 
+
+}
+
+.bio p::first-letter{
+    font-family: Trattatello, fantasy;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.left p::first-letter{
+    font-family: Trattatello, fantasy;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.right p::first-letter{
+    font-family: Trattatello, fantasy;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* test */
