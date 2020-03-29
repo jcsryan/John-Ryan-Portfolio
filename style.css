@@ -81,7 +81,7 @@ ul {
     background-position: center;
     margin: -100px 0 32px 0;
     opacity: 0.75;
-    z-index: 0;
+    z-index: -1;
 }
 
 #homepage .page-title h1 {
@@ -153,13 +153,14 @@ ul {
 }
 
 .instagram a {
-    background-image: url("./images/insta.png");
+    background-image: url("./images/instagram.png");
     display: block;
     height: 20px;
     width: 20px;
     padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
+    ;
 }
 
 .photo1 {
@@ -185,6 +186,7 @@ ul {
     background-image: url(images/sailboat.svg);
     background-position: center;
 }
+
 
 .bio p {
     vertical-align: top;
@@ -214,3 +216,60 @@ ul {
 }
 
 /* test */
+
+  
+header {
+    padding: 10px;
+    background: #555;
+    color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.links {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.link {
+    padding-right: 33%;
+}
+
+.header {
+    overflow: hidden;
+    background-color: var(--border-color);
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+   
+  .header-right {
+    float: right;
+  }

@@ -6,8 +6,15 @@
 </head>
 
 <body>
-    <div id="homepage">
-       <div class="container">
+   <header class="header">
+     <div class="header-right">
+        <a class="active" href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#work">Work</a>
+      </div>
+   </header>
+    <section id="homepage">
+       <section class="container">
           <div class="small">
              <div class="page-title">
                 <h1>John C. Ryan</h1>
@@ -25,7 +32,7 @@
                          <div class="skill">Basic HTML, CSS, JavaScript, and Python knowledge.</div>
                       </li>
                       <li>
-                         <div class="skill">.</div>
+                         <div class="skill"></div>
                       </li>
                    </ul>
                 </div>
@@ -56,12 +63,13 @@
                 </div>
              </div>
           </div>
-       </div>
+         </section>
        
-       <div class="sunset"></div><div class="container">
+       <div class="sunset"></div>
+       <div class="container">
           <div class="small">
-             <div class="column">
-                <div class="label">Work</div>
+             <section class="column">
+                <div id="work" class="label">Work</div>
                 <div class="left">
                   
                       <h3 class="test"><a href="https://jcsryan.github.io/test-week-1/">Horiseon<br>Marketing Agency</a></h3>
@@ -77,28 +85,37 @@
                    </a>
                    <img class="photo2" src="./images/run-link.jpg">
                 </div>
-             </div>
+               </section>
            
             <div class="left">
-               <div class="bio">
+               <div id="about" class="bio">
                   <p>
-                     My name is John Ryan, I have been many things in my life. Chef, butcher, firefighter, teacher, and now I am moving into web development. I enjoy understanding the roots of problems and finding a solution that is not only serviceable but also elegant. My past work history has taught me how to budget my time, understand and break down complex problems into their component parts, and how to deal with pressure. Honestly, as challenging as javascript can be, it does not compare with falling through a burning roof on the stress scale. 
-	I hope you enjoy looking through my past projects. Please feel free to reach out with any questions you may have about my work. I approach anything I do with an eye for minimalism and flow, here you find a site broken down into two centered columns. I find that oftentimes a busy page gets less across than a sparse one. I hope you like what I have to show you. 
+                     My name is John Ryan, I have been many things in my life. Chef, butcher, 
+                     firefighter, teacher, and now I am moving into web development. I enjoy 
+                     understanding the roots of problems and finding a solution that is not 
+                     only serviceable but also elegant. My past work history has taught me how 
+                     to budget my time, understand and break down complex problems into their 
+                     component parts, and how to deal with pressure. Honestly, as challenging
+                      as javascript can be, it does not compare with falling through a burning 
+                      roof on the stress scale. 
+                     I hope you enjoy looking through my past projects. Please feel free to 
+                     reach out with any questions you may have about my work. I approach anything 
+                     I do with an eye for minimalism and flow, here you find a site broken down 
+                     into two centered columns. I find that oftentimes a busy page gets less 
+                     across than a sparse one. I hope you like what I have to show you. 
 
                   </p>
                </div>
-               
             </div>
-                </div>
-             </div>
           </div>
        </div>
+       
       
-       <div class="footer">
+       <section class="footer">
           <div class="container">
              <div class="small">
                 <h3>I hope to one day use this knowledge and experience to help market and expand the small farm movement.</h3>
-                <div class="social">
+                <div id="contact" class="social">
                    <ul>
                       <li class="linkedin"><a href="https://www.linkedin.com/in/john-ryan-1727ab17b/"> </a></li>
                       <li class="instagram"><a href="https://www.instagram.com/johnconnorsamuelryanesquire/?hl=en"></a></li>
@@ -107,6 +124,5 @@
                 </div>
              </div>
           </div>
-       </div>
-    </div>
+       </section>
  </body>
