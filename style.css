@@ -251,7 +251,7 @@ header {
   
   .header a {
     float: left;
-    color: var(--primary-color);
+    color: #aeb1b5;
     text-align: center;
     padding: 12px;
     text-decoration: none;
