@@ -176,6 +176,11 @@ ul {
     max-height: 400px;
 }
 
+.photo3 {
+    display: flex;
+    max-width: %;
+    max-height: none;
+}
 .sailboat {
     display: block;
     height: 320px;
@@ -191,7 +196,7 @@ ul {
 
 .bio p {
     vertical-align: top;
-    width: 49%;
+    width: 100%;
     display: inline-block;
     padding-right: 30px;
     box-sizing: border-box; 
